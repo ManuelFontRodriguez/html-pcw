@@ -15,7 +15,7 @@
  {
     padding: 2px 7px 2px 7px;
     color: rgb(0, 0, 0);
-    background-color: #1896fd;
+    background-color: #ffc400;
     border: 1px solid rgb(0, 0, 0);
     text-decoration: none;
  }
@@ -23,7 +23,7 @@
  #navegador li a:hover
  {
     background-color: #333333;
-    color: #3ad613;
+    color: #46f3ff;
  }
  
  UL.col3
@@ -48,3 +48,32 @@ UL.col3 LI
  WIDTH: 32%;
  PADDING-TOP: 2px
  } 
+
+ html, body {
+    height: 100%; /* hacer que la página llene toda la altura*/
+    }
+    * {
+    margin: 0;  /* márgenes podrían meter la pata */
+    }
+    #contenidoprincipal  {
+    height: 100%;  /* empuja el pie hacia abajo */
+    }
+    #piedepagina {
+    height: 50px;  /* establece la altura del pie de página */
+    margin-top: -50px;  /* estas cifras tienen que ser opostas */
+    }
+    #piedepagina a
+ {
+    padding: 2px 7px 2px 7px;
+    color: rgb(0, 0, 0);
+    background-color: #ffc400;
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+   
+    
+ }
+ #piedepagina a:hover
+ {
+    background-color: #333333;
+    color: #46f3ff;
+ }
