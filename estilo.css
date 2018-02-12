@@ -1,15 +1,18 @@
-#navegador ul{
+#navegador ul
+{
     list-style-type: none;
     text-align: center;
  }
  
- #navegador li{
+ #navegador li
+ {
     display: inline;
     text-align: center;
     margin: 0 10px 0 0;
  }
  
- #navegador li a {
+ #navegador li a
+ {
     padding: 2px 7px 2px 7px;
     color: rgb(0, 0, 0);
     background-color: #1896fd;
@@ -17,30 +20,31 @@
     text-decoration: none;
  }
  
- #navegador li a:hover{
+ #navegador li a:hover
+ {
     background-color: #333333;
     color: #3ad613;
  }
  
  UL.col3
 {
-PADDING-RIGHT: 0px;
-PADDING-LEFT: 0px;
-FLOAT: left;
-PADDING-BOTTOM: 0px;
-MARGIN: 15px 0px;
-WIDTH: 100%;
-PADDING-TOP: 0px;
-LIST-STYLE-TYPE: none
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FLOAT: left;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 15px 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    LIST-STYLE-TYPE: none
 }
 
-UL.col3 LI
+    UL.col3 LI
 {
-PADDING-RIGHT: 2px;
-DISPLAY: inline;
-PADDING-LEFT: 2px;
-FLOAT: left;
-PADDING-BOTTOM: 2px;
-WIDTH: 32%;
-PADDING-TOP: 2px
+    PADDING-RIGHT: 2px;
+    DISPLAY: inline;
+    PADDING-LEFT: 2px;
+    FLOAT: left;
+    PADDING-BOTTOM: 2px;
+    WIDTH: 32%;
+    PADDING-TOP: 2px
 }
