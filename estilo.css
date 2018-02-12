@@ -26,10 +26,10 @@
     color: #3ad613;
  }
  
- UL.col2
+ UL.col3
  {
  PADDING-RIGHT: 0px;
- PADDING-LEFT: 20px;
+ PADDING-LEFT: 30px;
  FLOAT: left;
  PADDING-BOTTOM: 0px;
  MARGIN: 15px 0px;
@@ -38,13 +38,13 @@
  LIST-STYLE-TYPE: none;
  }
 
-UL.col2 LI
+UL.col3 LI
  {
  PADDING-RIGHT: 2px;
  DISPLAY: inline;
  PADDING-LEFT: 2px;
  FLOAT: left;
  PADDING-BOTTOM: 2px;
- WIDTH: 48%;
+ WIDTH: 32%;
  PADDING-TOP: 2px
  } 
