@@ -50,6 +50,8 @@ UL.col3 LI
  } 
 
  html, body {
+    font-family: 'Oswald', serif;
+    font-size: 18px;
     height: 100%; /* hacer que la página llene toda la altura*/
     }
     * {
