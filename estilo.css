@@ -1,81 +1,175 @@
-#navegador ul
+*{
+	box-sizing: border-box;
+}
+
+body{
+	min-width: auto;
+	max-width: auto;
+	margin: 0 auto;
+	padding: .5em;
+}
+	body>nav{
+		background-color: purple;
+	}
+		body>nav>ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			max-height: 1.5em;
+			overflow: hidden;
+
+			transition:max-height 1s ease-in-out;
+		}
+			body>nav>ul>li>a{
+				display: block;
+				padding: .2em;
+				text-decoration: none;
+				font-weight: bold;
+			}
+				body>nav>ul>li>a:hover{
+					background-color: black;
+					color: #fff;
+				}	
+				body>nav>ul>li:first-of-type>label{
+					font-weight: bold;
+					margin-left: .2em;
+					display: inline-block;
+					font-size: 1.5em;
+					cursor: pointer;
+
+					transition: 1s ease-in-out;
+				}
+			
+	#ckbmenu{
+		display: none;
+	}
+
+	#ckbmenu:checked+ul{
+		max-height: 20em;
+	}
+		#ckbmenu:checked+ul>li:first-of-type>label{
+			transform: rotate(90deg);
+		}
+
+/* CABECERA */
+
+	body>header{
+		display: flex;
+		flex-direction: column;
+
+		overflow: hidden;
+		background-color: pink;
+		padding: .5em;
+		color: #fff;
+		text-align: center;
+
+	}
+		body>header>img{
+			align-self: center;
+			background-color: #fff;
+		}
+
+		body>header>div{
+			display: flex;
+			flex-direction: column;
+		}
+		body>header>div>h1{
+				margin:.2em 0;
+			}
+			body>header>div>p{
+				border-top: 1px solid #fff;
+				border-bottom: 1px solid #fff;
+				margin: 0;
+				padding: .5em;
+			}
+
+/*CONTENIDO*/
+
+	body>section{
+		background-color: #ccc;
+		padding: .5em
+	}
+		body>section>h2{
+			text-align: center;
+			border-bottom: 1px solid black;
+		}
+		body>section>div{
+			display: flex;
+			flex-direction: column;
+		}
+			body>section>div>article{
+				background-color: #fff;
+				padding: .5em;
+				margin: .5em 0;
+			}
+
+/* BODY > FOOTER*/
+
+		body>footer{
+			overflow: hidden;
+			background-color:pink;
+			color: purple;
+			padding: .5em;
+			text-align: center;
+		}
+			body>piedepagina>p{
+				margin: 0;
+			}
+
+
+            /*MEDIA QUERIES*/
+@media all and (min-width: 480px){
+	body>nav>ul>li{
+		display: inline-block;
+	}
+	body>nav>ul>li:first-of-type{
+		display: none;
+	}
+		body>nav>ul>li>a>span:nth-of-type(2){
+		display: none;
+	}
+}
+
+@media all and (min-width:640px){
+	body>nav>ul>li>a>span:nth-of-type(2){
+		display: inline-block;
+	}
+
+}
+#piedepagina ul
 {
     list-style-type: none;
     text-align: center;
  }
  
- #navegador li
+ #piedepagina ul
  {
     display: inline;
     text-align: center;
     margin: 0 10px 0 0;
  }
  
- #navegador li a
+ #piedepagina ul a
  {
     padding: 2px 7px 2px 7px;
-    color: rgb(0, 0, 0);
-    background-color: #ffc400;
+    color:rgb(0, 255, 234) ;
+    background-color: brown;
     border: 1px solid rgb(0, 0, 0);
     text-decoration: none;
  }
  
- #navegador li a:hover
+ #piedepagina ul a:hover
  {
     background-color: #333333;
     color: #46f3ff;
  }
- 
- UL.col3
- {
- PADDING-RIGHT: 0px;
- PADDING-LEFT: 30px;
- FLOAT: left;
- PADDING-BOTTOM: 0px;
- MARGIN: 15px 0px;
- WIDTH: 100%;
- PADDING-TOP: 0px;
- LIST-STYLE-TYPE: none;
+ #logo{
+    position: relative;
+    top: 5%;
+    left:43%;
+
+    height: 100px;
+    width: 100px;
+    text-align: center;
  }
 
-UL.col3 LI
- {
- PADDING-RIGHT: 2px;
- DISPLAY: inline;
- PADDING-LEFT: 2px;
- FLOAT: left;
- PADDING-BOTTOM: 2px;
- WIDTH: 32%;
- PADDING-TOP: 2px
- } 
-
- html, body {
-    font-family: 'Oswald', serif;
-    font-size: 18px;
-    height: 100%; /* hacer que la página llene toda la altura*/
-    }
-    * {
-    margin: 0;  /* márgenes podrían meter la pata */
-    }
-    #contenidoprincipal  {
-    height: 100%;  /* empuja el pie hacia abajo */
-    }
-    #piedepagina {
-    height: 50px;  /* establece la altura del pie de página */
-    margin-top: -50px;  /* estas cifras tienen que ser opostas */
-    }
-    #piedepagina a
- {
-    padding: 2px 7px 2px 7px;
-    color: rgb(0, 0, 0);
-    background-color: #ffc400;
-    border: 1px solid rgb(0, 0, 0);
-    text-decoration: none;
-   
-    
- }
- #piedepagina a:hover
- {
-    background-color: #333333;
-    color: #46f3ff;
- }

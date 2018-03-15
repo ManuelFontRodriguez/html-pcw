@@ -1,46 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
   <LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
 	<link rel="stylesheet"
 	href="https://fonts.googleapis.com/css?family=Oswald">
-  <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
     <meta charset="utf-8">
-    <title> Recetas </title>
-  	<div align="center"><img src="http://www.actiweb.es/deliveryatugusto/imagen1.png?1006230411" width="100" height="100"></div>
-		<h1 align="center">RECETAS SIN MÁS</h1></br>
-		<div id="navegador">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="buscar.html">Buscar</a></li>
-				<li><a href="recetas.html">Recetas</a></li>
-				<li><a href="nueva-receta.html">Nueva receta</a></li>
-				<li><a href="acerca.html">Acerca</a></li>
-				<li><a href="login.html">Login</a></li>
-				<li><a href="registro.html">Registro</a></li>
-			</ul>
-			</div>
-
-  </head>
+	<title> Recetas </title>
+</head>
+<body data-pagina="indice">
+		<header>
+				<div>
+						<div align="center"><img src="http://www.actiweb.es/deliveryatugusto/imagen1.png?1006230411" width="100" height="100"></div>
+						<h1 align="center">RECETAS SIN MÁS</h1></br>
+				</div>
+</header>
+			<nav>
+					<input type="checkbox" id="ckbmenu">
+					<ul>
+						<li><label for="ckbmenu">&equiv;</label></li>
+						<li><a href="index.html"><span class="glyphicon glyphicon-home"></span><span>Inicio</span></a></li>
+						<li><a href="buscar.html"><span class="glyphicon glyphicon-screenshot"></span><span>Buscar</span></a></li>
+						<li><a href="recetas.html"><span class="glyphicon glyphicon-heart"></span><span>Recetas</span></a></li>
+						<li><a href="nueva-receta.html"><span class="glyphicon glyphicon-picture"></span><span>Nueva Receta</span></a></li>
+						<li><a href="acerca.html"><span class="glyphicon glyphicon-fire"></span><span>acerca</span></a></li>
+						<li><a href="login.html"><span class="glyphicon glyphicon-user"></span><span>Login</span></a></li>
+						<li><a href="registro.html"><span class="glyphicon glyphicon-user"></span><span>Registro</span></a></li>
+					</ul>
+				</nav>
+			
+ 
 
   <body>
-		<div align="center" id="listarecetas">
-		<ul class="col3">
-			<li>Receta 1</li>
-			<li>Receta 2</li>
-			<li>Receta 3</li>
-			<li>Receta 4</li>	
-			<li>Receta 5</li>
-			<li>Receta 6</li>
-			<li>Receta 7</li>	
-			<li>Receta 8</li>
-			<li>Receta 9</li>
-		</ul>
-		</div>
+		
 
 		
 		<div id="contenidoprincipal">
-			Contenido principal.
+			<div align="center" id="listarecetas">
+				<ul class="col3">
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 1</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 2</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 3</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 4</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 5</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 6</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 7</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 8</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<img src="http://www.nrn.com/sites/nrn.com/files/styles/article_featured_standard/public/gallery_promo_image/PizzaHut_TwistedCrust_promo.jpg?itok=NNza-88n" width="300" height="300">
+							<h3>Receta 9</h3>
+							<p>Descripcion</p>
+						<footer>
+							<pie>Autor</pie>
+						</footer>
+						</article>
+					</li>
+
+				</ul>
+				</div>
 			</div>
+			<footer>
 			<div align="center" id="piedepagina">
 			
 			
@@ -49,14 +150,16 @@
 				<a href="acerca.html">Acerca</a>
 			</ul>
 		</br>
+	</br>
 
-			<p align="center"> Copyright © 2018 RECETAS SIN MAS (M.A.C.) Todos los derechos reservados. </br>
+			<p align="center"> <strong>Copyright © </strong> 2018 RECETAS SIN MAS (M.A.C.) Todos los derechos reservados. </br>
 			</p>
 			</div>
 
 		</br>
 		</div>
+	</footer>
   </body>
-  </body>
+  
 
 </html>
