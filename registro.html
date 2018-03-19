@@ -24,7 +24,7 @@
 							<li><a href="buscar.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp<span>Buscar</span></a></li>
 							<li><a href="recetas.html"><span class="glyphicon glyphicon-heart"></span>&nbsp<span>Recetas</span></a></li>
 							<li><a href="nueva-receta.html"><span class="glyphicon glyphicon-picture"></span>&nbsp<span>Nueva Receta</span></a></li>
-							<li><a href="acerca.html"><span class="glyphicon glyphicon-fire"></span>&nbsp<span>acerca</span></a></li>
+							<li><a href="acerca.html"><span class="glyphicon glyphicon-fire"></span>&nbsp<span>Acerca</span></a></li>
 							<li><a href="login.html"><span class="glyphicon glyphicon-user"></span>&nbsp<span>Login</span></a></li>
 							<li><a href="registro.html"><span class="glyphicon glyphicon-user"></span>&nbsp<span>Registro</span></a></li>
 						</ul>
@@ -36,34 +36,36 @@
 						<div>
 							<article>
 									<div id="cuerpo">
- 
+											<a href="login.html"</a>Inicar sesión</a>
+											<br>
+											
 											<form id="form-login" action="#" method="post" >
 												<p><label for="nombre">Nombre:</label></p>
-													<input name="nombre" type="text" id="nombre" class="nombre" placeholder="Pon tu nombre" autofocus=""/ ></p>
+													<input name="nombre" type="text" id="nombre" class="nombre" placeholder="Pon tu nombre" autofocus="" required=""/></p>
 							 
 												<!--=============================================================================================-->
 												<!--La sisguientes 2 líneas son para agregar campos al formulario con sus respectivos labels-->
 												<!--Puedes usar tantas como necesites-->
 												<p><label for="apellidos">Apellidos:</label></p>
-													<input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Pon tus apellidos" /></p>
+													<input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Pon tus apellidos"required="" /></p>
 												<!--=============================================================================================-->
 							 
 												<p><label for="correo">Correo:</label></p>
-													<input name="correo" type="text" id="correo" class="correo" placeholder="Pon tu mail" /></p>
+													<input name="correo" type="text" id="correo" class="correo" placeholder="Pon tu mail" required=""/></p>
 
 												<p><label for="fecha">Fecha Nacimiento:</label></p>
-												<input type="date" name="fecha" min="1899-03-19"max="2018-03-19" step="2">
+												<input type="date" name="fecha" min="1899-03-19"max="2018-03-19" step="2"required="">
 			  	
 												<br>
 												<br>
 												<p><label for="pass">Password:</label></p>
-													<input name="pass" type="password" id="pass" class="pass" placeholder="Pon tu contraseña"/ ></p>
+													<input name="pass" type="password" id="pass" class="pass" placeholder="Pon tu contraseña"required=""/></p>
 							 
 												<p><label for="repass">Repetir Password:</label></p>
-													<input name="repass" type="password" id="repass" class="repass" placeholder="Repite contraseña" /></p>
+													<input name="repass" type="password" id="repass" class="repass" placeholder="Repite contraseña" required=""/></p>
 							 
 												<p id="bot"><input name="submit" type="submit" id="boton" value="Registrar" class="boton"/></p>
-												<a href="login.html">&nbsp<span>Iniciar Sesion</span>
+												
 											</form>
 										</div>
 							 

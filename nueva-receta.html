@@ -24,16 +24,65 @@
 							<li><a href="buscar.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp<span>Buscar</span></a></li>
 							<li><a href="recetas.html"><span class="glyphicon glyphicon-heart"></span>&nbsp<span>Recetas</span></a></li>
 							<li><a href="nueva-receta.html"><span class="glyphicon glyphicon-picture"></span>&nbsp<span>Nueva Receta</span></a></li>
-							<li><a href="acerca.html"><span class="glyphicon glyphicon-fire"></span>&nbsp<span>acerca</span></a></li>
+							<li><a href="acerca.html"><span class="glyphicon glyphicon-fire"></span>&nbsp<span>Acerca</span></a></li>
 							<li><a href="login.html"><span class="glyphicon glyphicon-user"></span>&nbsp<span>Login</span></a></li>
 							<li><a href="registro.html"><span class="glyphicon glyphicon-user"></span>&nbsp<span>Registro</span></a></li>
 						</ul>
 				</nav>
 			
  
-
+				<section>
+						<h2>Desde la Universidad de Alicante, a vuestras cocinas.</h2>
 					
-		
+						<div>
+							<article>
+								
+									<div id="cuerpo">
+ 
+											<form id="form-login" action="#" method="post" >
+												<p><label for="nombreR">Nombre:</label></p>
+													<input name="nombreR" type="text" maxlength="200" minlength="2" id="nombreR" class="nombreR" placeholder="Pon el nombre de la receta" autofocus="" required="" /></p>
+							 
+												<!--=============================================================================================-->
+												<!--La sisguientes 2 líneas son para agregar campos al formulario con sus respectivos labels-->
+												<!--Puedes usar tantas como necesites-->
+												<p><label for="elaboracion">Tiempo en minutos:</label></p>
+													<input name="elaboracion" type="number" min=1 max=300 id="elaboracion" class="elaboracion" placeholder="Pon tiempo de elaboración"required="" /></p>
+												<!--=============================================================================================-->
+												<p><label for="comensales">Comensales:</label></p>
+													<input name="comensales" type="number" max=10 min=1 id="comensales" class="comensales" placeholder="Número de comensales"required="" /></p>
+												
+													<p><label for="dificultad">Dificultad:</label></p>	
+													<select name="select">
+															<option value="value1">Baja</option> 
+															<option value="value2" selected>Media</option>
+															<option value="value3">Alta</option>
+														  </select>
+												<br>
+												<br>
+												<p><label for="fecha">Fecha elaboración:</label></p>
+												<input type="date" name="fecha" min="1899-03-19"max="2018-03-19" step="2">
+			  	
+												<br>
+												<br>
+												<p><label for="fecha">Explicación de la receta:</label></p>
+												<textarea name="COMMENT" rows="10" cols="50" wrap="soft"  placeholder="Máximo 1000 carácteres" maxlength="1000" required></textarea><br />
+												<br>
+												
+												<p><label for="archivo">Fotos de la receta:</label></p>
+												<input name="archivo" type="file" size="20" required multiple> 
+												<br>
+												<br>
+												<br>
+												<p id="bot"><input name="submit" type="submit" id="boton" value="Registrar" class="boton"/></p>
+											
+											</form>
+										</div>
+								
+							</article>
+						</div>
+					</section>
+
 
 			<footer>
 			<div align="center" id="piedepagina">
